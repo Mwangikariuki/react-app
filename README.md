@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started
 
 This is a personal project that i am engaged in, the idea is still not yet clear but i plan for it to be an open source react app project for the better good of my country
 
