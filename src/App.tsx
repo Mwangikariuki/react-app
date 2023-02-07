@@ -1,15 +1,13 @@
 import "./App.css";
-import MainHeader from "./components/header";
-import LandingPage from "./components/landing/landing";
-import MainLayout from "./components/layout/layout";
+import "bootstrap/dist/css/bootstrap.css";
+import { useEffect } from "react";
+import IndexPage from "./routes";
 
 function App() {
-  return (
-    <MainLayout>
-      <MainHeader />
-      <LandingPage />
-    </MainLayout>
-  );
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
+  return <IndexPage />;
 }
 
 export default App;
