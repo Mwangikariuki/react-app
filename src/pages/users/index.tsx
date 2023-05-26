@@ -1,8 +1,9 @@
-import { Row } from "react-bootstrap";
-import UserCard from "../../components/cards/card";
-import Header from "../../components/header/header";
-import Layout from "../../components/layout";
-import Navigation from "../../components/navigation";
+//import { Row } from "react-bootstrap";
+import Cube from "../../components/cube/cube";
+// //import UserCard from "../../components/cards/card";
+// import Header from "../../components/header/header";
+// import Layout from "../../components/layout";
+// import Navigation from "../../components/navigation";
 //import axios from 'axios';
 
 const AllUsers = () => {
@@ -16,18 +17,9 @@ const AllUsers = () => {
 
   return (
     <div>
-      <Header />
-      <Navigation />
-      <Layout share={() => {}} export={() => {}} title={"Users"}>
-        <Row>
-          <UserCard
-            name={"kelvin"}
-            occupation={"dev"}
-            description={"yesssss"}
-            onClick={() => {}}
-          />
-        </Row>
-      </Layout>
+
+          <Cube />
+
     </div>
   );
 };
